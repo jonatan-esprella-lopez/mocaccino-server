@@ -15,7 +15,7 @@
       "@test/*": ["test/*"],
       "@src/*": ["src/*"],
       "@auth/*": ["src/auth/*"],
-      "@dto/*": ["src/interfaces/dto/*"]
+      "@dto/*": ["src/shared/interfaces/dto/*"]
     },
     "incremental": true,
     "skipLibCheck": true,
