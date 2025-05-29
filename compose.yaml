@@ -6,6 +6,8 @@ services:
     image: postgres
     restart: always
     shm_size: 4g
+    ports:
+      - "5432:5432"  
     environment:
       POSTGRES_PASSWORD: password_mocaccino
       POSTGRES_USER: mocaccino
